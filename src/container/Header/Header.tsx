@@ -13,7 +13,7 @@ const Header: FunctionComponent = (): JSX.Element => {
                 "2xl:w-[120px] 2xl:h-[120px] lg:w-[60px] lg:h-[60px] w-[30px] h-[30px]",
         },
         {
-            url: "https://github.com/zperekoty/linker",
+            url: "https://github.com/zperekoty",
             b: true,
             classes:
                 "2xl:w-[120px] 2xl:h-[120px] lg:w-[60px] lg:h-[60px] w-[30px] h-[30px] mr-6",
