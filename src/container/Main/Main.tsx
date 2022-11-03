@@ -3,10 +3,22 @@ import { FunctionComponent } from "preact";
 import { Card } from "../../components";
 import type { cardType } from "../../types";
 import { GitHub, Telegram, Instagram, Vkontakte } from "../../svg";
-import { Kanforest, Kalina } from "../../assets";
+import { Kanforest, Kalina, Linker } from "../../assets";
 
 const Main: FunctionComponent = (): JSX.Element => {
   const cards: cardType[] = [
+    {
+      text: "Linker Ver 2! | Ver 5.0.0",
+      url: "https://linker-2.vercel.app",
+      icon: (
+        <Linker
+          alt="linker2_logo"
+          classes="2xl:w-[160px] 2xl:h-[160px] lg:w-[80px] lg:h-[80px] w-[40px] h-[40px]"
+        />
+      ),
+      anchorClasses:
+        "2xl:w-[160px] 2xl:h-[160px] lg:w-[80px] lg:h-[80px] w-[40px] h-[40px] mr-6",
+    },
     {
       text: "Linker GitHub repository",
       url: "https://github.com/zperekoty/linker",
